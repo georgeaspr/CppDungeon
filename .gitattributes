@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
+# Handle text files with LF line endings
 * text=auto
+
+# Ensure C# scripts use LF endings
+*.cs text eol=lf
+
+# Unity specific files should use LF endings
+*.shader text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+
+# Images and binaries should not be altered
+*.png binary
+*.jpg binary
+*.dll binary
+*.fbx binary
