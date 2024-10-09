@@ -9,6 +9,7 @@
 *.meta text eol=lf
 *.unity text eol=lf
 *.prefab text eol=lf
+*.anim text eol=lf
 
 # Images and binaries should not be altered
 *.png binary
